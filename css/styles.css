@@ -334,14 +334,29 @@ a {
 }
 
 .plan__description {
+  display: block;
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: 1px;
-  display: block;
 }
 
 .plan .list__item {
   margin-bottom: 2rem;
+}
+
+/* Plan Popular */
+
+.plan--popular .card__header {
+  position: relative;
+}
+
+.plan--popular .card__header::before {
+  content: url(../images/popular.svg);
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+  top: -10px;
+  width: 40px;
 }
 
 @media screen and (min-width: 1024px) {
