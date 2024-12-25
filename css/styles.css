@@ -920,3 +920,8 @@ a {
     font-size: 1.6rem;
   }
 }
+
+/* Callout Signup */
+.callout-signup {
+  transform: translateY(5rem);
+}
